@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+}
+
+header {
+  background-color: #8bc3f4;
+  padding: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}  
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #beebff;
+  padding: 20px;
+  text-align: center;  
+}
+
+body {
+  background-color: #acdbe9; 
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+  <div class="container">
+
+    <a href="/">Магазин</a>
+
+    <nav>
+      <a href="/">Главная</a>
+      <a href="/clothes">Одежда</a>
+      <a href="/shoes">Обувь</a>
+    </nav>
+
+  </div>
+
+</header>   
+
+{% block content %} {% endblock %}
+  
+<footer>
+
+  <div class="container">
+    &copy; Магазин, 2023
+  </div>
+  
+</footer>
+
+</body>
+</html>
