@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form class="form" action="/process" method="POST">
+
+  <h2>Введите данные</h2>
+
+  <label>Имя</label>
+  <input name="username" required>
+
+  <label>Email</label>
+  <input type="email" name="email" required>
+
+  <button class="btn" type="submit">Отправить</button>
+
+</form>
+
+{% endblock %}

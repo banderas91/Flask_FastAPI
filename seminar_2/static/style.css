@@ -1,0 +1,22 @@
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .form h2 {
+    text-align: center;  
+  }
+  
+  .form .btn {
+    background: blue;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .form .btn:hover {
+    background: darkblue;
+    cursor: pointer;
+  }
