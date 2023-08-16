@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <h1>Регистрация</h1>
+        <form action="/" method="post">
+            {{ form.csrf_token }}
+            <label for="first_name">Имя:</label><br>
+            {{ form.first_name }}<br>
+            <label for="last_name">Фамилия:</label><br>
+            {{ form.last_name }}<br>
+            <label for="email">Email:</label><br>
+            {{ form.email }}<br>
+            <label for="password">Пароль:</label><br>
+            {{ form.password }}<br><br>
+            {{ form.submit }}
+        </form>
+    </body>
+</html>

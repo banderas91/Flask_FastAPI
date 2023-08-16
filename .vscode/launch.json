@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/antonkonycev/Library/Containers/Mail.Ru.DiskO.as/Data/Disk-O.as.mounts/banderas91@mail.ru-mailru/Geek/Flask FastAPI/Flask_FastAPI/seminar_3",
+      "program": "/Users/antonkonycev/Library/Containers/Mail.Ru.DiskO.as/Data/Disk-O.as.mounts/banderas91@mail.ru-mailru/Geek/Flask FastAPI/Flask_FastAPI/seminar_3/build/Debug/outDebug"
+    }
+  ]
+}
